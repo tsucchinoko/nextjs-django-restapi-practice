@@ -1,1 +1,1 @@
-web: gunicorn nextjs_rest_api.wsgi --logfile -
+web: gunicorn nextjs_rest_api.wsgi --log-file -
